@@ -10,6 +10,11 @@ import {
   RevenueChartSkeleton,
 } from '@/app/ui/skeletons';
 import RevenueCard from '@/app/ui/dashboard/revenue-card';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
 
 export default async function Page() {
   console.log('dashboard page!');
